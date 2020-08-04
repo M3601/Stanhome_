@@ -1,0 +1,381 @@
+{
+  "prodotti": [
+    {
+      "id": 0,
+      "nome": "Multi-Floor",
+      "desc": "Pulitore concentrato per pavimenti lavabili",
+      "pub": "Pulitore concentrato per tutti i tipi di pavimento lavabile, compresi i pavimenti delicati"
+    },
+    {
+      "id": 1,
+      "nome": "Degreaser",
+      "desc": "Sgrassatore concentrato multisuperfici e stoviglie",
+      "pub": "Sgrassa a fondo e lava le stoviglie e tutti i tipi di superficie e di materiale lavabile"
+    },
+    {
+      "id": 2,
+      "nome": "Aquilaun 1000ml",
+      "desc": "Detergente ultraconcentrato per bucato delicato",
+      "pub": "Efficace già a basse temperature, lava con delicatezza e si prende cura dei tessuti delicati e dei tessuti moderni"
+    },
+    {
+      "id": 3,
+      "nome": "Softener Care",
+      "desc": "Ammorbidente concentrato rispetto delle pelli sensibili",
+      "pub": "Efficacia per un'estrema morbidezza in tutta serenità"
+    },
+    {
+      "id": 4,
+      "nome": "Aquilaun Synthetics",
+      "desc": "Detergente ultraconcentrato ideale per bucato sintetico"
+    },
+    {
+      "id": 5,
+      "nome": "Aquilaun 750ml",
+      "desc": "Detergente ultraconcentrato per bucato delicato",
+      "pub": "Efficace già a basse temperature, lava con delicatezza e si prende cura dei tessuti delicati e dei tessuti moderni"
+    },
+    {
+      "id": 6,
+      "nome": "Oven",
+      "desc": "Schiuma detergente intensiva per forni"
+    },
+    {
+      "id": 7,
+      "nome": "Deep Gel",
+      "desc": "Gel discrostante per superfici del bagno",
+      "pub": "Pulisce a fondo le superfici smaltate (lavabo, doccia,vasca,bidet) ed in acciaio inox (rubinetteria) del bagno"
+    },
+    {
+      "id": 8,
+      "nome": "Dust Away Care",
+      "desc": "Spray spolvero per mobili e altre superfici",
+      "pub": "L'efficacia quotidiana in tutta serenità"
+    },
+    {
+      "id": 9,
+      "nome": "Mini Trigger",
+      "desc": "Nebulizzatore per Dust Away Care",
+      "pub": "Nebulizza con efficacia e senza fatica"
+    },
+    {
+      "id": 10,
+      "nome": "Daily-Wash 500ml",
+      "desc": "Detergente concentrato per bucato bianco e colorato",
+      "pub": "Lava e smacchia efficaciemente tutto il bucato a partire da 30 °C lasciandolo gradevolmente profumato"
+    },
+    { "id": 11, "nome": "Feet socks", "desc": "Calzini cotone 95%" },
+    {
+      "id": 12,
+      "nome": "Dust Cloth",
+      "desc": "Panno in microfibra da spolvero",
+      "pub": "Rimuove la polvere efficaciemente e lucida i mobili"
+    },
+    {
+      "id": 13,
+      "nome": "Sani-Clean",
+      "desc": "Panno speciale per pavimenti",
+      "pub": "Assorbe, pulisce e disincrosta tutti i pavimenti lavabili"
+    },
+    {
+      "id": 14,
+      "nome": "Scrubby Flower - Ultra Precision",
+      "desc": "Rete per pulire le superfici del bagno",
+      "pub": "Gratta e pulisce a fondo le superfici del bagno"
+    },
+    {
+      "id": 15,
+      "nome": "Window Glove",
+      "desc": "Guanto di pulizia per superfici vetrate",
+      "pub": "Il guanto con microfibra per applicare i prodotti chimici Stanhome per una pulizia efficace di tutte le superfici in vetro e le superfici lisce"
+    },
+    {
+      "id": 16,
+      "nome": "Scratchy Cloth - Multiaction, Rosso",
+      "desc": "Microfibra doppia tessitura per tutte le superfici lavabili",
+      "pub": "Pulisce, gratta, asciuga e lucida tutte le superfici lavabili della casa"
+    },
+    {
+      "id": 17,
+      "nome": "Scratchy Cloth - Multiaction, Blu",
+      "desc": "Microfibra doppia tessitura per tutte le superfici lavabili",
+      "pub": "Pulisce, gratta, asciuga e lucida tutte le superfici lavabili della casa"
+    },
+    {
+      "id": 18,
+      "nome": "Soft - Ultra Absorption",
+      "desc": "Panno in microfibra per la pulizia della cucina",
+      "pub": "Pulisce, rimuove efficacemente lo sporco e assorbe grasso e liquidi presenti sulle superfici della cucina"
+    },
+    { "id": 19, "nome": "Presina", "desc": "Presina in stoffa" },
+    { "id": 20, "nome": "Guanto", "desc": "Guanto 'Giardini di marzo'" },
+    { "id": 21, "nome": "Bikini Bag", "desc": "Borsa porta bikini" },
+    {
+      "id": 22,
+      "nome": "Window Spray - Grapeful Scent",
+      "desc": "Pulitore vetri antiridepositante",
+      "pub": "Nuovo profumo fresco e frizzante dalle note di pompelmo"
+    },
+    {
+      "id": 23,
+      "nome": "Window Spray",
+      "desc": "Pulitore vetri antiridepositante",
+      "pub": "Un potente pulitore protettivo per tutti i vetri esterni"
+    },
+    {
+      "id": 24,
+      "nome": "Mop & Duster",
+      "desc": "Rigeneratore di efficacia per accessori in tessuto",
+      "pub": "Rafforza l'efficacia degli accessori in tessuto su superfici moderne, in legno (naturale, chiaro o scuro, cerato, verniciato o laccato), in formica, in plastica, soprammobili, ecc..."
+    },
+    {
+      "id": 25,
+      "nome": "Quick Polish",
+      "desc": "Pulitore elimina-polvere protettivo multisuperficie",
+      "pub": "Pulisce, spolvera e lucida le superfici moderne, in legno, in formica e in plastica"
+    },
+    {
+      "id": 26,
+      "nome": "Easy Glass Care",
+      "desc": "Pulitore vetri interni ed esterni"
+    },
+    {
+      "id": 27,
+      "nome": "Machine Booster",
+      "desc": "Pulitore totale lavatrice e lavastoviglie"
+    },
+    {
+      "id": 28,
+      "nome": "Blue Crystal",
+      "desc": "Cristalli antitarme profumati",
+      "pub": "Protegge gli indumenti con un'azione contro le tarme; profuma armadi e cassetti; noto lavanda"
+    },
+    {
+      "id": 29,
+      "nome": "Easy Wood",
+      "desc": "Pulitore protettivo per legno da esterno"
+    },
+    {
+      "id": 30,
+      "nome": "Express Shine Care - Bamboo Scent",
+      "desc": "Pulitore anticalcare bagno",
+      "pub": "Pulisce e lucida senza fatica le superfici del bagno nel rispetto delle pelli più delicate"
+    },
+    { "id": 31, "nome": "Anti-Calc Spray", "desc": "Pray anticalcare potente" },
+    {
+      "id": 32,
+      "nome": "Anti-Odor Fridge",
+      "desc": "Deodorante frigorifero",
+      "pub": "Elimina i cattivi odori nel frigorifero"
+    },
+    {
+      "id": 33,
+      "nome": "Blue Drop",
+      "desc": "Neutralizzante odori",
+      "pub": "Nota freschezza marina"
+    },
+    {
+      "id": 34,
+      "nome": "Leather Balsam",
+      "desc": "Balsamo nutriente per articoli in pelle"
+    },
+    {
+      "id": 35,
+      "nome": "Leather Pad",
+      "desc": "Applicatore in spugna per superfici in pelle",
+      "pub": "Permette di applicare facilmente e uniformemente Leather Balsam sulle superfici in pelle"
+    },
+    { "id": 36, "nome": "All Purpose", "desc": "Crema ricca nutriente" },
+    {
+      "id": 37,
+      "nome": "Hand Gel",
+      "desc": "Gel detergente mani senza risciacquo",
+      "pub": "L'esperto del trattamento delle mani"
+    },
+    {
+      "id": 38,
+      "nome": "Deo Fresh",
+      "desc": "Anti-traspirante 48H anti-aloni"
+    },
+    {
+      "id": 39,
+      "nome": "Ultra-Idratante Trattamento Viso Dopobarba",
+      "desc": "Fatto con oli essenziali di cinnamosma e lavanda"
+    },
+    {
+      "id": 40,
+      "nome": "Pure Scent - Flower Power",
+      "desc": "Diffusore di profumo per la casa",
+      "pub": "Il nuovo diffusore di profumo dalle note tropicali per portare il sole in ogni ambiente"
+    },
+    {
+      "id": 41,
+      "nome": "Olio Detergente Anti-Smog",
+      "desc": "Deterge perfettamente il viso ed elimina le particelle di smog presenti sulla pelle"
+    },
+    {
+      "id": 42,
+      "nome": "Kids Shampoo - 2 in 1",
+      "desc": "Shampoo delicato districante per bambini"
+    },
+    {
+      "id": 43,
+      "nome": "Balance Shampoo",
+      "desc": "Shampoo antiforfora riequilibrante"
+    },
+    {
+      "id": 44,
+      "nome": "Square Cotton Pads for Facial",
+      "desc": "Dischetti di cotone per cosmesi"
+    },
+    { "id": 45, "nome": "All Purpose Light", "desc": "Crema idratante" },
+    {
+      "id": 46,
+      "nome": "Ultra Dark Green Eyeliner",
+      "desc": "Eyeliner di colore verde scuro"
+    },
+    {
+      "id": 47,
+      "nome": "Aromasource Citron & Menthe",
+      "desc": "Esfoliante corpo effetto ghiaccio agli oli essenziali"
+    },
+    { "id": 48, "nome": "Baked Blush-On - Shimmer Pink", "desc": "Fard" },
+    { "id": 49, "nome": "Blush-On - Coral", "desc": "Fard" },
+    {
+      "id": 50,
+      "nome": "Full Color Nail Enamel - Rose I Hold",
+      "desc": "Smalto"
+    },
+    {
+      "id": 51,
+      "nome": "Full Color Nail Enamel - Rose Pumps",
+      "desc": "Smalto"
+    },
+    {
+      "id": 52,
+      "nome": "Full Color Nail Enamel - Neo Love Story",
+      "desc": "Smalto"
+    },
+    {
+      "id": 53,
+      "nome": "Full Color Nail Enamel - Funky Magenta",
+      "desc": "Smalto"
+    }
+  ],
+  "sets": [
+    {
+      "id": 0,
+      "nome": "Set 1",
+      "img": "static/0.jpeg",
+      "componenti": [37, 38, 39]
+    },
+    {
+      "id": 1,
+      "nome": "Set 2",
+      "img": "static/1.jpeg",
+      "componenti": [29, 22, 7]
+    },
+    {
+      "id": 2,
+      "nome": "Set 3",
+      "img": "static/2.jpeg",
+      "componenti": [2, 36]
+    },
+    {
+      "id": 3,
+      "nome": "Set 4",
+      "img": "static/3.jpeg",
+      "componenti": [43, 37, 50, 21]
+    },
+    {
+      "id": 4,
+      "nome": "Set 5",
+      "img": "static/4.jpeg",
+      "componenti": [45, 44, 53, 49]
+    },
+    {
+      "id": 5,
+      "nome": "Set 6",
+      "img": "static/5.jpeg",
+      "componenti": [16, 34, 35, 28]
+    },
+    {
+      "id": 6,
+      "nome": "Set 7",
+      "img": "static/6.jpeg",
+      "componenti": [17, 7, 10, 26]
+    },
+    {
+      "id": 7,
+      "nome": "Set 8",
+      "img": "static/7.jpeg",
+      "componenti": [6, 1, 18]
+    },
+    {
+      "id": 8,
+      "nome": "Set 9",
+      "img": "static/8.jpeg",
+      "componenti": [36, 25]
+    },
+    {
+      "id": 9,
+      "nome": "Set 10",
+      "img": "static/9.jpeg",
+      "componenti": [19, 27, 6, 33]
+    },
+    {
+      "id": 10,
+      "nome": "Set 11",
+      "img": "static/10.jpeg",
+      "componenti": [47, 11, 41]
+    },
+    {
+      "id": 11,
+      "nome": "Set 12",
+      "img": "static/11.jpeg",
+      "componenti": [1, 31, 32, 20]
+    },
+    {
+      "id": 12,
+      "nome": "Set 13",
+      "img": "static/12.jpeg",
+      "componenti": [42, 52, 46, 48]
+    },
+    {
+      "id": 13,
+      "nome": "Set 14",
+      "img": "static/13.jpeg",
+      "componenti": [15, 23, 5]
+    },
+    {
+      "id": 14,
+      "nome": "Set 15",
+      "img": "static/14.jpeg",
+      "componenti": [3, 51, 8, 9]
+    },
+    {
+      "id": 15,
+      "nome": "Set 16",
+      "img": "static/15.jpeg",
+      "componenti": [12, 24, 23]
+    },
+    {
+      "id": 16,
+      "nome": "Set 17",
+      "img": "static/16.jpeg",
+      "componenti": [4, 40, 26]
+    },
+    {
+      "id": 17,
+      "nome": "Set 18",
+      "img": "static/17.jpeg",
+      "componenti": [7, 14, 30]
+    },
+    {
+      "id": 18,
+      "nome": "Set 19",
+      "img": "static/18.jpeg",
+      "componenti": [0, 27, 13]
+    }
+  ]
+}

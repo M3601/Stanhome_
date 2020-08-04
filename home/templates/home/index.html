@@ -1,0 +1,160 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing Script">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
+    <style>
+        /* html {
+            height: 100%;
+        } */
+
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-image: linear-gradient(to top, #2af598 0%, #009efd 100%);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        #logo {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 100%;
+            height: fit-content;
+            font-family: 'Dancing Script';
+            font-weight: 600;
+            font-size: 50px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            transition: ease-in-out .8s;
+            z-index: 100;
+            color: white;
+        }
+
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        .content {
+            padding: 25px;
+        }
+
+        .sticky+.content {
+            padding-top: 100px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 32px;
+            justify-content: center;
+            align-content: center;
+        }
+
+        .card {
+            background: white;
+            margin-bottom: 32px;
+            padding: 30px;
+            justify-content: center;
+            align-items: center;
+            transition: ease-in-out .5s;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card>img {
+            width: 100%;
+            border-radius: 20px;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.65);
+        }
+
+        .card:hover>.name {
+            font-size: 30px;
+            background: #40E0D0;
+            background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
+            background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .name {
+            font-family: "Comfortaa";
+            font-size: 20px;
+            width: fit-content;
+            margin-top: 20px;
+            font-weight: 900;
+            transition: ease-in-out .5s;
+        }
+
+        img {
+            width: auto;
+        }
+
+        @media only screen and (max-width: 600px) {
+            #logo {
+                height: 50px;
+                font-size: 32px;
+            }
+
+            .content {
+                padding: 0px;
+            }
+
+            .grid {
+                grid-template-columns: 1fr;
+                column-gap: 0;
+            }
+
+            .card {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id='logo' class="sticky">
+        <span>
+            L'angolo delle offerte di Rosalina
+        </span>
+    </div>
+    <div class='content'>
+        <div class="grid">
+            {% for set in sets %}
+            <a href="{{set.id}}/" style="text-decoration: none;color: black;">
+                <div class="card">
+                    <img src="{{set.img}}" alt="">
+                    <div class="name">{{set.nome}}</div>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(window).scroll(() => {
+            if ($(this).scrollTop() >= 4) {
+                $('#logo').css('background', 'rgba(27,27,27,.7');
+            } else {
+                $('#logo').css('background', 'transparent');
+            }
+        });
+    </script>
+</body>
+
+</html>

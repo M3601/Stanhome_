@@ -1,0 +1,338 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing Script">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* html {
+            height: 100%;
+        } */
+
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            /* background-image: linear-gradient(to top, #e14fad 0%, #f9d423 100%); */
+            background-image: linear-gradient(to top, #2af598 0%, #009efd 100%);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        #logo {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 100%;
+            height: fit-content;
+            font-family: 'Dancing Script';
+            font-weight: 600;
+            font-size: 50px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            transition: ease-in-out .8s;
+            z-index: 100;
+        }
+
+        #logo>a {
+            color: white;
+            transition: ease-in-out .8s;
+        }
+
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        .content {
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .sticky+.content {
+            padding-top: 100px;
+        }
+
+        .grid {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 32px;
+            justify-content: center;
+            align-content: center;
+            justify-content: center;
+        }
+
+        .micro-grid {
+            margin-top: 10px;
+            width: 100%;
+            display: flex;
+            column-gap: 32px;
+            justify-content: center;
+            align-content: center;
+            justify-content: space-around;
+        }
+
+        .micro-card {
+            width: 30%;
+            background: white;
+            margin-bottom: 20px;
+            display: flex;
+            height: 37px;
+            padding: 15px;
+            font-family: Comfortaa;
+            font-weight: 400;
+            font-size: 15px;
+            align-items: center;
+            justify-content: center;
+            border-radius: 40px;
+            transition: ease-in-out .6s;
+        }
+
+        .micro-card:hover {
+            background: #FFB300;
+            color: white;
+            font-size: 17px;
+            font-weight: 700;
+            transform: translateY(-2px);
+            box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.65);
+        }
+
+        .card {
+            background: white;
+            margin-bottom: 32px;
+            padding: 15px;
+            transition: ease-in-out .5s;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            font-family: Comfortaa;
+            font-weight: 400;
+            font-size: 15px;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+            justify-items: center;
+            text-align: center;
+            text-justify: inter-word;
+        }
+
+        .info {
+            margin-top: 25px;
+            margin-bottom: 25px;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .info>span {
+            font-family: "Comfortaa";
+            font-size: 50px;
+            font-weight: 800;
+            background: #80DEEA;
+            padding: 25px 25% 0 25%;
+            border-radius: 20px 20px 0 0;
+            box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.65);
+        }
+
+        .info>img {
+            width: 90%;
+            border-radius: 20px;
+            border: 10px solid rgb(255, 255, 255);
+            border: 10px solid rgba(255, 255, 255, .5);
+            -webkit-background-clip: padding-box;
+            background-clip: padding-box;
+        }
+
+        #comp {
+            font-family: Comfortaa;
+            font-weight: 600;
+            font-size: 50px;
+            padding-top: 50px;
+        }
+
+        .prezzo {
+            font-family: Comfortaa;
+            font-weight: 900;
+            font-size: 40px;
+        }
+
+        .prezzo>span>span {
+            background: #f12711;
+            background: -webkit-linear-gradient(to bottom, #f5af19, #f12711);
+            background: linear-gradient(to bottom, #f5af19, #f12711);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .prodotto {
+            font-size: 20px;
+        }
+
+        .card:hover {
+            background: #FF9800;
+            color: white;
+            transform: translateY(-5px);
+            box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.65);
+        }
+
+        .card:hover>hr {
+            background-image: linear-gradient(to right, rgba(255, 255, 255, .2), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, .2));
+        }
+
+        .card>p {
+            width: fit-content;
+            height: fit-content;
+        }
+
+        .messaggio {
+            font-family: Comfortaa;
+            font-weight: 600;
+            font-size: 15px;
+            text-align: center;
+        }
+
+        #wa-btn {
+            width: 50%;
+            height: 50px;
+            border-radius: 25px;
+            border: none;
+            outline: none;
+            background: #009688;
+            cursor: pointer;
+            text-align: center;
+            color: white;
+            font-family: Comfortaa;
+            font-size: 20px;
+            line-height: 50px;
+            margin-bottom: 50px;
+            transition: ease-in-out .5s;
+        }
+
+        #wa-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.65);
+        }
+
+        hr {
+            border: none;
+            height: 1px;
+            width: 100%;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+            transition: ease-in-out .5s;
+        }
+
+        @media only screen and (max-width: 600px) {
+            #logo {
+                height: 50px;
+                font-size: 32px;
+            }
+
+            .content {
+                padding: 0px;
+            }
+
+            .grid {
+                grid-template-columns: 1fr;
+                column-gap: 0;
+            }
+
+            .card {
+                padding: 15px;
+            }
+
+            .info>span {
+                font-size: 30px;
+            }
+
+            #comp {
+                font-size: 30px;
+            }
+
+            .micro-card {
+                font-size: 12px;
+            }
+
+            .micro-card:last-child:hover {
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id='logo' class="sticky">
+        <a href="/" style="text-decoration: none;">
+            <span>
+                L'angolo delle offerte di Rosalina
+            </span>
+        </a>
+    </div>
+    <div class='content'>
+        <div class="info">
+            <span>{{nome}}</span>
+            <img src="{{img}}">
+        </div>
+        <div class="prezzo"><span>Tuo a soli <span>€19,90</span></span>
+        </div>
+        <div class="messaggio">
+            Inoltre se acquisti 2 set, potrai prendere gratuitamente uno di questi prodotti:
+        </div>
+        <div class="micro-grid">
+            <div class="micro-card">
+                <span>
+                    Telo mare
+                </span>
+            </div>
+            <div class="micro-card">
+                <span>
+                    Pareo
+                </span>
+            </div>
+            <div class="micro-card">
+                <span>
+                    Set 3 taglieri
+                </span>
+            </div>
+        </div>
+        <span id='comp'>COMPONENTI</span><br>
+        <div class="componenti  grid">
+            {% for prodotto in prodotti %}
+            <div class="card">
+                <p class="prodotto">{{prodotto.nome}}</p>
+                <p class="descrizione">{{prodotto.desc}}</p>
+                {% if prodotto.pub %}
+                <hr>
+                <p class="pub">{{prodotto.pub}}</p>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+        <div id='wa-btn' class="btn"><i class="fa fa-whatsapp"></i> LO VOGLIO!</div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(window).scroll(() => {
+            if ($(this).scrollTop() >= 10) {
+                $('#logo').css('background', 'rgba(27,27,27,.7');
+            } else {
+                $('#logo').css('background', 'transparent');
+            }
+        });
+        $('#wa-btn').on('click', () => { window.open('{{wa_url}}') });
+    </script>
+</body>
+
+</html>
