@@ -266,115 +266,115 @@
     {
       "id": 0,
       "nome": "Set 1",
-      "img": "static/0.jpeg",
+      "img": "https://github.com/M3601/Stanhome_/raw/master/img/0.jpeg",
       "componenti": [37, 38, 39]
     },
     {
       "id": 1,
       "nome": "Set 2",
-      "img": "static/1.jpeg",
+      "img": "https://github.com/M3601/Stanhome_/raw/master/img/1.jpeg",
       "componenti": [29, 22, 7]
     },
     {
       "id": 2,
       "nome": "Set 3",
-      "img": "static/2.jpeg",
+      "img": "https://github.com/M3601/Stanhome_/raw/master/img/2.jpeg",
       "componenti": [2, 36]
     },
     {
       "id": 3,
       "nome": "Set 4",
-      "img": "static/3.jpeg",
+      "img": "https://github.com/M3601/Stanhome_/raw/master/img/3.jpeg",
       "componenti": [43, 37, 50, 21]
     },
     {
       "id": 4,
       "nome": "Set 5",
-      "img": "static/4.jpeg",
+      "img": "https://github.com/M3601/Stanhome_/raw/master/img/4.jpeg",
       "componenti": [45, 44, 53, 49]
     },
     {
       "id": 5,
       "nome": "Set 6",
-      "img": "static/5.jpeg",
+      "img": "https://github.com/M3601/Stanhome_/raw/master/img/5.jpeg",
       "componenti": [16, 34, 35, 28]
     },
     {
       "id": 6,
       "nome": "Set 7",
-      "img": "static/6.jpeg",
+      "img": "https://github.com/M3601/Stanhome_/raw/master/img/6.jpeg",
       "componenti": [17, 7, 10, 26]
     },
     {
       "id": 7,
       "nome": "Set 8",
-      "img": "static/7.jpeg",
+      "img": "https://github.com/M3601/Stanhome_/raw/master/img/7.jpeg",
       "componenti": [6, 1, 18]
     },
     {
       "id": 8,
       "nome": "Set 9",
-      "img": "static/8.jpeg",
+      "img": "https://github.com/M3601/Stanhome_/raw/master/img/8.jpeg",
       "componenti": [36, 25]
     },
     {
       "id": 9,
       "nome": "Set 10",
-      "img": "static/9.jpeg",
+      "img": "https://github.com/M3601/Stanhome_/raw/master/img/9.jpeg",
       "componenti": [19, 27, 6, 33]
     },
     {
       "id": 10,
       "nome": "Set 11",
-      "img": "static/10.jpeg",
+      "img": "https://github.com/M3601/Stanhome_/raw/master/img/10.jpeg",
       "componenti": [47, 11, 41]
     },
     {
       "id": 11,
       "nome": "Set 12",
-      "img": "static/11.jpeg",
+      "img": "https://github.com/M3601/Stanhome_/raw/master/img/11.jpeg",
       "componenti": [1, 31, 32, 20]
     },
     {
       "id": 12,
       "nome": "Set 13",
-      "img": "static/12.jpeg",
+      "img": "https://github.com/M3601/Stanhome_/raw/master/img/12.jpeg",
       "componenti": [42, 52, 46, 48]
     },
     {
       "id": 13,
       "nome": "Set 14",
-      "img": "static/13.jpeg",
+      "img": "https://github.com/M3601/Stanhome_/raw/master/img/13.jpeg",
       "componenti": [15, 23, 5]
     },
     {
       "id": 14,
       "nome": "Set 15",
-      "img": "static/14.jpeg",
+      "img": "https://github.com/M3601/Stanhome_/raw/master/img/14.jpeg",
       "componenti": [3, 51, 8, 9]
     },
     {
       "id": 15,
       "nome": "Set 16",
-      "img": "static/15.jpeg",
+      "img": "https://github.com/M3601/Stanhome_/raw/master/img/15.jpeg",
       "componenti": [12, 24, 23]
     },
     {
       "id": 16,
       "nome": "Set 17",
-      "img": "static/16.jpeg",
+      "img": "https://github.com/M3601/Stanhome_/raw/master/img/16.jpeg",
       "componenti": [4, 40, 26]
     },
     {
       "id": 17,
       "nome": "Set 18",
-      "img": "static/17.jpeg",
+      "img": "https://github.com/M3601/Stanhome_/raw/master/img/17.jpeg",
       "componenti": [7, 14, 30]
     },
     {
       "id": 18,
       "nome": "Set 19",
-      "img": "static/18.jpeg",
+      "img": "https://github.com/M3601/Stanhome_/raw/master/img/18.jpeg",
       "componenti": [0, 27, 13]
     }
   ]
